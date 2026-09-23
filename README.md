@@ -24,7 +24,7 @@ Sign Algorithm
 SHA256withRSASign Algorithm OID
 1.2.840.113549.1.1.11Serial Number
 228526b0d1ef90c3b8ed568a49c3714f6a39506b
-(o en formato con dos puntos: 22:85:26:b0:d1:ef:90:c3:b8:ed:56:8a:49:c3:71:4f:6a:39:50:6b)Certificate SHA1
+: 22:85:26:b0:d1:ef:90:c3:b8:ed:56:8a:49:c3:71:4f:6a:39:50:6b)Certificate SHA1
 b0c7dc5f6277b80abad48c6fe6965c9a260a380cCertificate SHA256
 4cfe803b578fd6958d236e492448585eccbc5c33a5113bda7ff1a47351e4118dCertificate MD5
 4D4CBF7963362188E0AF01CA9EAC8194Public Key Type
@@ -32,7 +32,7 @@ RSA (Rivest-Shamir-Adleman) — 2048 bitValid from
 Fri Sep 15 02:31:06 EST 2023
 (Not Before: Sep 15 07:31:06 2023 GMT)Valid until
 Tue Jan 31 02:31:06 EST 2051
-(Not After: Jan 31 07:31:06 2051 GMT)Issuer / Subject (son iguales, certificado autofirmado)
+(Not After: Jan 31 07:31:06 2051 GMT)Issuer / Subject 1.2.840.113549.1.9.1=#161572656c65617365404c6f6e6763686565722e636f6d,CN=Longcheer,OU=Longcheer,O=Longcheer,L=ShangHai,ST=ShangHai,C=CN
 1.2.840.113549.1.9.1=#161572656c65617365404c6f6e6763686565722e636f6d,CN=Longcheer,OU=Longcheer,O=Longcheer,L=ShangHai,ST=ShangHai,C=CNEn texto legible:
 C=CN, ST=ShangHai, L=ShangHai, O=Longcheer, OU=Longcheer, CN=Longcheer
 emailAddress=release@longcheer.com
