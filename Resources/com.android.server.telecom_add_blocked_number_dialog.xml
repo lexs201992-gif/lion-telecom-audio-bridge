@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start" android:orientation="vertical" android:padding="@0x7f050003" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:gravity="start" android:paddingBottom="@0x7f050007" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@0x7f0c0002" style="@0x7f0d0002"/>
+    <EditText android:id="@0x7f070027" android:paddingTop="@0x7f050007" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@0x7f0c0003" android:inputType="phone" android:textDirection="locale" android:textAlignment="viewStart"/>
+</LinearLayout>
