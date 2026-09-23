@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@0x7f0c006d">
+    <SwitchPreference android:persistent="false" android:title="@0x7f0c006f" android:key="block_numbers_not_in_contacts_setting" android:summary="@0x7f0c006e" android:defaultValue="false"/>
+    <SwitchPreference android:persistent="false" android:title="@0x7f0c0073" android:key="block_private_number_calls_setting" android:summary="@0x7f0c0072" android:defaultValue="false"/>
+    <SwitchPreference android:persistent="false" android:title="@0x7f0c0071" android:key="block_payphone_calls_setting" android:summary="@0x7f0c0070" android:defaultValue="false"/>
+    <SwitchPreference android:persistent="false" android:title="@0x7f0c0077" android:key="block_unknown_calls_setting" android:summary="@0x7f0c0076" android:defaultValue="false"/>
+    <SwitchPreference android:persistent="false" android:title="@0x7f0c0075" android:key="block_unavailable_calls_setting" android:summary="@0x7f0c0074" android:defaultValue="false"/>
+</PreferenceScreen>
