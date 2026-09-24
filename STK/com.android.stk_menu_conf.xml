@@ -1,0 +1,88 @@
+<operators>
+    <operator icon="ic_launcher_sim_toolkit" label="Orange+" mcc="208" mnc="1"/>
+    <operator icon="ic_launcher_21404" label="movistar" mcc="214" mnc="4"/>
+    <operator icon="ic_launcher_21407" label="movistar" mcc="214" mnc="7"/>
+    <operator icon="ic_launcher_sim_toolkit" label="SIM i.TIM" mcc="222" mnc="1"/>
+    <operator icon="ic_launcher_sim_toolkit" label="SIM i.TIM" mcc="222" mnc="7"/>
+    <operator icon="ic_launcher_sim_toolkit" label="SIM i.TIM" mcc="222" mnc="8"/>
+    <operator icon="ic_launcher_sim_toolkit" label="SIM i.TIM" mcc="222" mnc="49"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Virgin" mcc="234" mnc="38"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Virgin" mcc="234" mnc="30"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Plus MEGA" mcc="260" mnc="1"/>
+    <operator icon="ic_launcher_330110" label="SIM Claro" mcc="330" mnc="110"/>
+    <operator icon="ic_launcher_33403" label="Movistar" mcc="334" mnc="3"/>
+    <operator icon="ic_launcher_33403" label="Movistar" mcc="334" mnc="30"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Mi SIM" mcc="334" mnc="50"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Mi SIM" mcc="334" mnc="70"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Mi SIM" mcc="334" mnc="90"/>
+    <operator icon="ic_launcher_33450" label="Iusacell 4G" mcc="334" mnc="50"/>
+    <operator icon="ic_launcher_338070" label="Claro" mcc="338" mnc="70"/>
+    <operator icon="ic_launcher_37001" label="MI SIM" mcc="370" mnc="1"/>
+    <operator icon="ic_launcher_37002" label="SIM Claro" mcc="370" mnc="2"/>
+    <operator icon="ic_launcher_70401" label="Ideas Claro" mcc="704" mnc="1"/>
+    <operator icon="ic_launcher_70402" label="Menu TIGO" mcc="704" mnc="2"/>
+    <operator icon="ic_launcher_70403" label="Ideas Claro" mcc="704" mnc="3"/>
+    <operator icon="ic_launcher_70601" label="Ideas Claro" mcc="706" mnc="1"/>
+    <operator icon="ic_launcher_70603" label="Menu TIGO" mcc="706" mnc="3"/>
+    <operator icon="ic_launcher_70604" label="movistar" mcc="706" mnc="4"/>
+    <operator icon="ic_launcher_708001" label="Ideas Claro" mcc="708" mnc="1"/>
+    <operator icon="ic_launcher_70802" label="Menu TIGO" mcc="708" mnc="2"/>
+    <operator icon="ic_launcher_71021" label="Ideas Claro" mcc="710" mnc="21"/>
+    <operator icon="ic_launcher_71073" label="Ideas Claro" mcc="710" mnc="73"/>
+    <operator icon="ic_launcher_710300" label="movistar" mcc="710" mnc="300"/>
+    <operator icon="ic_launcher_71201" label="Menu Operador" mcc="712" mnc="1"/>
+    <operator icon="ic_launcher_71202" label="Menu Operador" mcc="712" mnc="2"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Claro CR" mcc="712" mnc="3"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Movistar" mcc="712" mnc="4"/>
+    <operator icon="ic_launcher_71403" label="Vive tu SIM" mcc="714" mnc="3"/>
+    <operator icon="ic_launcher_714020" label="movistar" mcc="714" mnc="20"/>
+    <operator icon="ic_launcher_71606" label="Movistar" mcc="716" mnc="6"/>
+    <operator icon="ic_launcher_71610" label="Mis Servicios" mcc="716" mnc="10"/>
+    <operator icon="ic_launcher_72207" label="Movistar" mcc="722" mnc="7"/>
+    <operator icon="ic_launcher_72234" label="Servicio SIM" mcc="722" mnc="34"/>
+    <operator icon="ic_launcher_722310" label="Chip Claro" mcc="722" mnc="310"/>
+    <operator icon="ic_launcher_72234" label="Servicio SIM" mcc="722" mnc="340"/>
+    <operator icon="ic_launcher_72234" label="Servicio SIM" mcc="722" mnc="341"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Mi Personal" mcc="722" mnc="36"/>
+    <operator icon="ic_launcher_72402" label="Serviços TIM" mcc="724" mnc="2"/>
+    <operator icon="ic_launcher_72403" label="Serviços TIM" mcc="724" mnc="3"/>
+    <operator icon="ic_launcher_72404" label="Serviços TIM" mcc="724" mnc="4"/>
+    <operator icon="ic_launcher_72405" label="Menu Claro" mcc="724" mnc="5"/>
+    <operator icon="ic_launcher_72406" label="Vivo Chip" mcc="724" mnc="6"/>
+    <operator icon="ic_launcher_72410" label="Vivo Chip" mcc="724" mnc="10"/>
+    <operator icon="ic_launcher_72411" label="Vivo Chip" mcc="724" mnc="11"/>
+    <operator icon="ic_launcher_72416" label="Mundo Oi" mcc="724" mnc="16"/>
+    <operator icon="ic_launcher_72423" label="Vivo Chip" mcc="724" mnc="23"/>
+    <operator icon="ic_launcher_72424" label="Mundo Oi" mcc="724" mnc="24"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Serviços TIM" mcc="724" mnc="26"/>
+    <operator icon="ic_launcher_72431" label="Mundo Oi" mcc="724" mnc="31"/>
+    <operator icon="ic_launcher_73001" label="Menu EPCS" mcc="730" mnc="1"/>
+    <operator icon="ic_launcher_73002" label="Movistar" mcc="730" mnc="2"/>
+    <operator icon="ic_launcher_73003" label="ClaroChip+" mcc="730" mnc="3"/>
+    <operator icon="ic_launcher_73001" label="Menu EPCS" mcc="730" mnc="10"/>
+    <operator icon="ic_launcher_730730" label="movistar" mcc="730" mnc="730"/>
+    <operator icon="ic_launcher_73003" label="ClaroChip+" mcc="730" mnc="23"/>
+    <operator icon="ic_launcher_73001" label="Menu EPCS" mcc="730" mnc="26"/>
+    <operator icon="ic_launcher_732101" label="Claro" mcc="732" mnc="101"/>
+    <operator icon="ic_launcher_732103" label="Mundo TIGO" mcc="732" mnc="103"/>
+    <operator icon="ic_launcher_732111" label="Mundo TIGO" mcc="732" mnc="111"/>
+    <operator icon="ic_launcher_732123" label="Movistar" mcc="732" mnc="12"/>
+    <operator icon="ic_launcher_732123" label="Movistar" mcc="732" mnc="123"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Avantel" mcc="732" mnc="130"/>
+    <operator icon="ic_launcher_sim_toolkit" label="WOM" mcc="732" mnc="360"/>
+    <operator icon="ic_launcher_73401" label="Menu 412" mcc="734" mnc="1"/>
+    <operator icon="ic_launcher_73402" label="Menu 412" mcc="734" mnc="2"/>
+    <operator icon="ic_launcher_73403" label="Menu 412" mcc="734" mnc="3"/>
+    <operator icon="ic_launcher_73404" label="Movistar" mcc="734" mnc="4"/>
+    <operator icon="ic_launcher_73406" label="tu chip" mcc="734" mnc="6"/>
+    <operator icon="ic_launcher_74000" label="Movistar" mcc="740" mnc="0"/>
+    <operator icon="ic_launcher_74001" label="Menu Claro" mcc="740" mnc="1"/>
+    <operator icon="ic_launcher_74002" label="CNT" mcc="740" mnc="2"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Ideas Claro" mcc="740" mnc="3"/>
+    <operator icon="ic_launcher_74402" label="Chip Claro" mcc="744" mnc="2"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Menu TIGO" mcc="744" mnc="4"/>
+    <operator icon="ic_launcher_sim_toolkit" label="Mi Personal" mcc="744" mnc="5"/>
+    <operator icon="ic_launcher_74801" label="Zona Movil" mcc="748" mnc="1"/>
+    <operator icon="ic_launcher_74807" label="Movistar" mcc="748" mnc="7"/>
+    <operator icon="ic_launcher_74810" label="Chip Claro" mcc="748" mnc="10"/>
+</operators>
