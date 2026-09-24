@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto" android:title="@0x7f130615">
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@0x7f030053" android:title="@0x7f130617" android:key="layout" android:summary="%s" android:entryValues="@0x7f030054"/>
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@0x7f030052" android:title="@0x7f1304fc" android:key="type_left" android:summary="%s" android:entryValues="@0x7f030051"/>
+    <Preference android:persistent="false" android:title="@0x7f1304fb" android:key="keycode_left"/>
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:title="@0x7f1304fa" android:key="icon_left" android:summary="%s"/>
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@0x7f030052" android:title="@0x7f13076a" android:key="type_right" android:summary="%s" android:entryValues="@0x7f030051"/>
+    <Preference android:persistent="false" android:title="@0x7f130769" android:key="keycode_right"/>
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:title="@0x7f130768" android:key="icon_right" android:summary="%s"/>
+</PreferenceScreen>

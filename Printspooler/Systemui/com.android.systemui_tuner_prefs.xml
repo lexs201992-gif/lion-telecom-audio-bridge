@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto" android:title="@0x7f13085b">
+    <PreferenceScreen android:title="@0x7f130825" android:key="status_bar">
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f13082c" android:key="rotate"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f1303b7" android:key="headset"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f13082d" android:key="managed_profile"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f1306fc" android:key="cast"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f13072c" android:key="hotspot"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f1306ee" android:key="bluetooth"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f1306f6" android:key="cameratoggle"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f130726" android:key="zen"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@string/search_hint" android:key="volume"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f13074e" android:key="wifi"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f130829" android:key="ethernet"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f130704" android:key="mobile"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f130826" android:key="airplane"/>
+        <com.android.systemui.tuner.BatteryPreference android:entries="@0x7f03000b" android:title="@0x7f13013c" android:summary="%s"/>
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@0x7f130827" android:key="alarm_clock"/>
+        <com.android.systemui.tuner.ClockPreference android:entries="@0x7f03002b" android:title="@0x7f1308b9" android:summary="%s"/>
+        <com.android.systemui.tuner.TunerSwitch android:title="@0x7f1308b2" android:key="low_priority" app:r0x7f040182="false"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@0x7f130913" android:key="volume_and_do_not_disturb">
+        <com.android.systemui.tuner.TunerSwitch android:title="@0x7f130916" android:key="sysui_volume_down_silent,sysui_volume_up_silent" app:r0x7f040182="true" app:r0x7f0403ef="315"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@0x7f1308ac" android:key="doze">
+        <com.android.systemui.tuner.TunerSwitch android:title="@0x7f1308ad" android:key="doze_always_on" app:r0x7f040182="true"/>
+    </PreferenceScreen>
+    <Preference android:title="@0x7f130615" android:key="nav_bar" android:fragment="com.android.systemui.tuner.NavBarTuner"/>
+    <Preference android:title="@0x7f1308b1" android:key="lockscreen" android:fragment="com.android.systemui.tuner.LockscreenFragment"/>
+    <Preference android:title="@0x7f1306ab" android:key="plugins" android:fragment="com.android.systemui.tuner.PluginFragment"/>
+    <Preference android:selectable="false" android:summary="@0x7f1308b6"/>
+</PreferenceScreen>

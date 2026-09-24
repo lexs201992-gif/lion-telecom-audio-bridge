@@ -1,0 +1,3 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto" android:title="@0x7f130681">
+    <Preference android:title="@0x7f1308ae" android:key="power_notification_controls" android:fragment="com.android.systemui.tuner.PowerNotificationControlsFragment"/>
+</PreferenceScreen>

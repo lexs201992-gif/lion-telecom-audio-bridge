@@ -1,0 +1,25 @@
+<ConstraintSet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@0x7f0a03af">
+    <Constraint android:id="@0x7f0a01b4">
+        <Layout android:layout_width="wrap_content" android:layout_height="0.0dp" app:r0x7f04032c="0" app:r0x7f040345="@0x7f0a0104" app:r0x7f04034a="0"/>
+        <PropertySet android:alpha="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a0212">
+        <Layout android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_marginStart="8.0dp" app:r0x7f04032c="0" app:r0x7f040345="@0x7f0a01b4" app:r0x7f04034a="0"/>
+        <PropertySet android:alpha="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a018a">
+        <Layout android:layout_gravity="center|end" android:layout_width="0.0dp" android:layout_height="0.0dp" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a06da" app:r0x7f040345="@0x7f0a0212" app:r0x7f04034a="0" app:r0x7f04034f="1" app:r0x7f040351="48.0dp"/>
+        <PropertySet android:alpha="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a06da">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f0702df" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a0100" app:r0x7f040345="@0x7f0a018a" app:r0x7f04034a="0"/>
+        <PropertySet android:alpha="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a0100">
+        <Layout android:layout_width="wrap_content" android:layout_height="0.0dp" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a058c" app:r0x7f04033a="@0x7f0702df" app:r0x7f04034a="0"/>
+        <PropertySet android:alpha="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a058c">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f0702df" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a0295" app:r0x7f04034a="0"/>
+    </Constraint>
+</ConstraintSet>
