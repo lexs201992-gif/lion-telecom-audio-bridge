@@ -1,0 +1,8 @@
+<config>
+    <compat-change description="With support for MEP(multiple enabled profile) in Android T, a SIM card can have more than one ICCID active at the same time. Apps should use below API signatures if targeting SDK is T and beyond." enableSinceTargetSdk="33" id="202110963" name="GET_API_SIGNATURES_FROM_UICC_PORT_INFO">
+        <meta-data definedIn="com.android.phone.PhoneInterfaceManager" sourcePosition="packages/services/Telephony/src/com/android/phone/PhoneInterfaceManager.java:479"/>
+    </compat-change>
+    <compat-change description="Apps targeting on Android T and beyond will get exception whenever icc close channel operation fails." enableSinceTargetSdk="33" id="208739934" name="ICC_CLOSE_CHANNEL_EXCEPTION_ON_FAILURE">
+        <meta-data definedIn="com.android.phone.PhoneInterfaceManager" sourcePosition="packages/services/Telephony/src/com/android/phone/PhoneInterfaceManager.java:487"/>
+    </compat-change>
+</config>

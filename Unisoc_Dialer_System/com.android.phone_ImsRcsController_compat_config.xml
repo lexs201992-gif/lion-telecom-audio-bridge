@@ -1,0 +1,5 @@
+<config>
+    <compat-change description="For apps targeting Android T and above, support the publishing state on APIs, such as {@code RcsUceAdapter#PUBLISH_STATE_PUBLISHING}" enableAfterTargetSdk="31" id="202894742" name="SUPPORT_PUBLISHING_STATE">
+        <meta-data definedIn="com.android.phone.ImsRcsController" sourcePosition="packages/services/Telephony/src/com/android/phone/ImsRcsController.java:85"/>
+    </compat-change>
+</config>

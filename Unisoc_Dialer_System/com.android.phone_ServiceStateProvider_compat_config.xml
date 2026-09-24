@@ -1,0 +1,5 @@
+<config>
+    <compat-change description="If the change Id is enabled, location permission is required to access location sensitive columns in the ServiceStateTable." enableAfterTargetSdk="30" id="191911306" name="ENFORCE_LOCATION_PERMISSION_CHECK">
+        <meta-data definedIn="com.android.phone.ServiceStateProvider" sourcePosition="packages/services/Telephony/src/com/android/phone/ServiceStateProvider.java:240"/>
+    </compat-change>
+</config>

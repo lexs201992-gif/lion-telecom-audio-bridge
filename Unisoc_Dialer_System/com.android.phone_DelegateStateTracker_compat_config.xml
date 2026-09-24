@@ -1,0 +1,8 @@
+<config>
+    <compat-change description="For apps targeting Android T and above, support the REGISTERING state on APIs, such as {@code DelegateRegistrationState#addRegisteringFeatureTags} and {@code DelegateRegistrationState#getRegisteringFeatureTags}" enableAfterTargetSdk="31" id="205194548" name="SUPPORT_REGISTERING_DELEGATE_STATE">
+        <meta-data definedIn="com.android.services.telephony.rcs.DelegateStateTracker" sourcePosition="packages/services/Telephony/src/com/android/services/telephony/rcs/DelegateStateTracker.java:84"/>
+    </compat-change>
+    <compat-change description="For apps targeting Android T and above, support the DEREGISTERING_REASON_LOSING_PDN state on APIs, such as {@code DelegateRegistrationState#addDeregisteringFeatureTag} and {@code DelegateRegistrationState#getDeregisteringFeatureTags}" enableAfterTargetSdk="31" id="201522903" name="SUPPORT_DEREGISTERING_LOSING_PDN_STATE">
+        <meta-data definedIn="com.android.services.telephony.rcs.DelegateStateTracker" sourcePosition="packages/services/Telephony/src/com/android/services/telephony/rcs/DelegateStateTracker.java:95"/>
+    </compat-change>
+</config>

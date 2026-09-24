@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@0x7f110475">
+    <PreferenceCategory android:title="@0x7f110480" android:key="phone_accounts_accounts_list_category_key">
+        <PreferenceScreen android:persistent="false" android:title="@0x7f110477" android:key="phone_accounts_all_calling_accounts" android:summary="@0x7f110478">
+            <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.settings.EnableAccountPreferenceActivity"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@0x7f110385" android:key="make_and_receive_calls_settings_category_key">
+        <com.android.phone.settings.AccountSelectionPreference android:persistent="false" android:title="@0x7f11047d" android:key="default_outgoing_account" android:defaultValue=""/>
+        <PreferenceScreen android:persistent="false" android:title="@0x7f1105b5" android:key="smart_forwarding_configuration_key" android:summary="@0x7f1105b6"/>
+    </PreferenceCategory>
+</PreferenceScreen>
