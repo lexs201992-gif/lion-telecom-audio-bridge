@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.taboola.ody">
+        <permission name="motorola.permission.MOTOROLA_COMPONENT_SAFE"/>
+    </privapp-permissions>
+</permissions>

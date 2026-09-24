@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the motorola launcher
+-->
+<permissions>
+    <privapp-permissions package="com.motorola.android.providers.chromehomepage">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

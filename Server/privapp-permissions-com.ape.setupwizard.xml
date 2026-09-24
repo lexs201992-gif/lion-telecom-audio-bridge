@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the motorola launcher
+-->
+<permissions>
+    <privapp-permissions package="com.ape.setupwizard">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+		<permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+		<permission name="android.permission.WRITE_APN_SETTINGS"/>
+		<permission name="android.permission.STATUS_BAR"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
+		<permission name="android.permission.MODIFY_PHONE_STATE"/>
+		<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+		<permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+                <!-- remove permission by dangyuyan EKCANCUN-4061-->
+		<!--<permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>-->
+		<!-- modify for [EKCANCUN-4637] by huanghaodong on 2023-05-04 start-->
+		<permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+		<!-- modify for [EKCANCUN-4637] by huanghaodong on 2023-05-04 end-->
+		<permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>
