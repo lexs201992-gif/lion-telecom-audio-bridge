@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="34" android:versionName="14" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.android.printspooler" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="34"/>
+    <permission android:name="com.android.printspooler.permission.ACCESS_ALL_PRINT_JOBS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.START_PRINT_SERVICE_CONFIG_ACTIVITY" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.printspooler.permission.ACCESS_ALL_PRINT_JOBS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.START_PRINT_SERVICE_CONFIG_ACTIVITY"/>
+    <uses-permission android:name="android.permission.READ_PRINT_SERVICES"/>
+    <uses-permission android:name="android.permission.READ_PRINT_SERVICE_RECOMMENDATIONS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application android:label="@0x7f0b0004" android:icon="@0x7f050002" android:allowClearUserData="true" android:supportsRtl="true" android:extractNativeLibs="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <service android:name="com.android.printspooler.model.PrintSpoolerService" android:permission="android.permission.BIND_PRINT_SPOOLER_SERVICE" android:exported="true"/>
+        <service android:name="com.android.printspooler.renderer.PdfManipulationService" android:process=":renderer" android:isolatedProcess="true"/>
+        <activity android:theme="@0x7f0c000d" android:name="com.android.printspooler.ui.PrintActivity" android:permission="android.permission.BIND_PRINT_SPOOLER_SERVICE" android:exported="true" android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode">
+            <intent-filter>
+                <action android:name="android.print.PRINT_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="printjob" android:pathPattern="*"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@0x7f0c000e" android:label="@0x7f0b0002" android:name="com.android.printspooler.ui.SelectPrinterActivity" android:exported="false" android:parentActivityName="com.android.printspooler.ui.PrintActivity"/>
+        <activity android:theme="@0x7f0c000c" android:label="@0x7f0b0029" android:name="com.android.printspooler.ui.AddPrinterActivity" android:exported="false" android:parentActivityName="com.android.printspooler.ui.SelectPrinterActivity"/>
+        <receiver android:name="com.android.printspooler.model.NotificationController$NotificationBroadcastReceiver" android:exported="false"/>
+    </application>
+</manifest>
