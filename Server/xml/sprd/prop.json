@@ -1,0 +1,222 @@
+{
+    "debug": false,
+    "debug_carrier": "retbr",
+    "carrier": [
+        {
+            "unknown": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "retbr": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "pt-BR"
+            }
+        },
+        {
+            "amxmx": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "openmx": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "attmx": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "altmx": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "retar": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "opencl": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "amxcl": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "amxpe": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "openpe": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "amxco": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "avaco": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "retla": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "amxla": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "tigca": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "reteu": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "oraeu": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "pluspl": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "pl-PL"
+            }
+        },
+        {
+            "o2gb": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-GB"
+            }
+        },
+        {
+            "teleu": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "timit": {
+                "ro.product.name": "lion_gen",
+                "vendor.carrier.language": "it-IT"
+            }
+        },
+        {
+            "retgb": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-GB"
+            }
+        },
+        {
+            "retapac": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "vfau": {
+                "ro.product.name": "lion_gn",
+                "vendor.carrier.language": "en-AU"
+            }
+        },
+        {
+            "retin": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "en-IN"
+            }
+        },
+        {
+            "retjio": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "en-IN"
+            }
+        },
+        {
+            "retjioin": {
+                "ro.product.name": "lion_gi",
+                "vendor.carrier.language": "en-IN"
+            }
+        },
+        {
+            "demogb": {
+                "ro.product.name": "lion_gen",
+                "vendor.carrier.language": "en-GB"
+            }
+        },
+        {
+            "retdemo": {
+                "ro.product.name": "lion_gen",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "openpub": {
+                "ro.product.name": "lion_g",
+                "vendor.carrier.language": "es-US"
+            }
+        },
+        {
+            "telstra": {
+                "ro.product.name": "lion_gn",
+                "vendor.carrier.language": "en-AU"
+            }
+        },
+        {
+            "retanz": {
+                "ro.product.name": "lion_gn",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "3gb": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-GB"
+            }
+        },
+        {
+            "vfeu": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-US"
+            }
+        },
+        {
+            "eegb": {
+                "ro.product.name": "lion_ge",
+                "vendor.carrier.language": "en-GB"
+            }
+        }
+    ]
+}

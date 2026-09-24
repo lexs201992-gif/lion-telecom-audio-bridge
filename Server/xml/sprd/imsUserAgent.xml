@@ -1,0 +1,112 @@
+<imsUserAgent version="1.0" type="device">
+     <!--For EE UK/O2 UK/O2 DE/O2 ES/GT4G TW/Plus PL/Play PL-->   
+    <config value="1">
+        <element>23430</element>
+        <element>23433</element>
+        <element>23410</element>
+        <element>26203</element>
+        <element>26207</element>
+        <element>21405</element>
+        <element>21407</element>
+        <element>46605</element>
+        <element>26001</element>
+        <element>26060</element>
+        <element>26098</element>
+    </config>
+    <!--For Orange Group-->
+    <config value="2">
+        <element>20801</element>
+        <element>22610</element>
+        <element>21403</element>
+        <element>21421</element>
+        <element>26003</element>
+        <element>21419</element>
+        <element>20610</element>
+        <element>23101</element>
+        <element>27099</element>
+    </config>
+    <!--For America Movil Group-->
+    <config value="3">
+        <element>722310</element>
+        <element>72405</element>
+        <element>73003</element>
+        <element>73023</element>
+        <element>732101</element>
+        <element>71203</element>
+        <element>37002</element>
+        <element>74001</element>
+        <element>70401</element>
+        <element>70403</element>
+        <element>70801</element>
+        <element>708001</element>
+        <element>71021</element>
+        <element>71073</element>
+        <element>334020</element>
+        <element>71403</element>
+        <element>71610</element>
+        <element>330110</element>
+        <element>74402</element>
+        <element>70601</element>
+        <element>74810</element>
+    </config>
+    <!--For Jio-->
+    <config value="4">
+        <element>405840</element>
+        <element>405854</element>
+        <element>405855</element>
+        <element>405856</element>
+        <element>405857</element>
+        <element>405858</element>
+        <element>405859</element>
+        <element>405860</element>
+        <element>405861</element>
+        <element>405862</element>
+        <element>405863</element>
+        <element>405864</element>
+        <element>405865</element>
+        <element>405866</element>
+        <element>405867</element>
+        <element>405868</element>
+        <element>405869</element>
+        <element>405870</element>
+        <element>405871</element>
+        <element>405872</element>
+        <element>405873</element>
+        <element>405874</element>
+    </config>
+    <!--For DTAG-->
+    <config value="5">
+        <element>20201</element>
+        <element>20402</element>
+        <element>20416</element>
+        <element>21630</element>
+        <element>21901</element>
+        <element>22603</element>
+        <element>22606</element>
+        <element>23001</element>
+        <element>23102</element>
+        <element>23203</element>
+        <element>23207</element>
+        <element>26002</element>
+        <element>26201</element>
+        <element>26206</element>
+        <element>26298</element>
+        <element>29401</element>
+        <element>29702</element>
+    </config>
+    <!--For Telstra-->
+    <config value="6">
+        <element>50501</element>
+        <element>50571</element>
+        <element>50572</element>
+        <element>50511</element>
+    </config>
+    <config value="7">
+        <element>73001</element>
+        <element>73010</element>
+        <element>73026</element>
+        <element>46000</element>
+        <element>46001</element>
+        <element>46002</element>
+    </config>
+</imsUserAgent>
