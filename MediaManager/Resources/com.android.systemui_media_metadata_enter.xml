@@ -1,0 +1,4 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+    <objectAnimator android:duration="600" android:valueFrom="32.0dp" android:valueTo="0.0dp" android:valueType="floatType" android:propertyName="translationX"/>
+    <objectAnimator android:duration="167" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="transitionAlpha"/>
+</set>

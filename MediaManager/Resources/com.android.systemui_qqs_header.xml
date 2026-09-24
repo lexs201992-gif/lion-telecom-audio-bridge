@@ -1,0 +1,22 @@
+<ConstraintSet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@0x7f0a05a5">
+    <Constraint android:id="@0x7f0a01b4">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f0702df" app:r0x7f04032c="@0x7f0a05a4" app:r0x7f040333="@0x7f0a0212" app:r0x7f04033c="0.0" app:r0x7f04033d="2" app:r0x7f040346="@0x7f0a0104" app:r0x7f04034a="0"/>
+        <Transform android:scaleX="1.0" android:scaleY="1.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a0212">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f07068c" android:layout_marginBottom="0.0dp" android:layout_marginStart="8.0dp" app:r0x7f040326="true" app:r0x7f040328="@0x7f0a01b4" app:r0x7f040333="@0x7f0a00fd" app:r0x7f04033c="0.0" app:r0x7f040345="@0x7f0a01b4"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a06da">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f07068c" app:r0x7f04032c="@0x7f0a05a4" app:r0x7f040333="@0x7f0a0100" app:r0x7f04033a="@0x7f07068c" app:r0x7f04033c="1.0" app:r0x7f04033d="2" app:r0x7f040345="@0x7f0a0212" app:r0x7f04034a="0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a0100">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f07068c" app:r0x7f04032c="@0x7f0a05a4" app:r0x7f040332="@0x7f0a0295" app:r0x7f04033a="@0x7f07068c" app:r0x7f04033c="1.0" app:r0x7f04033d="2" app:r0x7f040345="@0x7f0a06da" app:r0x7f04034a="0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a018a">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f0702df" app:r0x7f040332="0" app:r0x7f04034a="0" app:r0x7f040351="48.0dp"/>
+        <PropertySet android:alpha="0.0"/>
+    </Constraint>
+    <Constraint android:id="@0x7f0a058c">
+        <Layout android:layout_width="wrap_content" android:layout_height="@0x7f0702df" app:r0x7f04032c="@0x7f0a05a4" app:r0x7f040332="@0x7f0a0295" app:r0x7f04033c="1.0" app:r0x7f040345="@0x7f0a0212" app:r0x7f04034a="0"/>
+    </Constraint>
+</ConstraintSet>

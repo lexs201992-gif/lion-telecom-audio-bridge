@@ -1,0 +1,12 @@
+<ConstraintSet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Constraint android:id="@0x7f0a06a4" android:layout_width="fill_parent" android:layout_height="@0x7f0707c0"/>
+    <Constraint android:id="@0x7f0a0456" android:layout_marginBottom="@0x7f0707ad" android:layout_marginEnd="@0x7f0707b2" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a0458" app:r0x7f04033c="1.0" app:r0x7f04033d="2" app:r0x7f040346="0" app:r0x7f04034a="0" app:r0x7f04034b="0.5" style="@0x7f1401a1"/>
+    <Constraint android:id="@0x7f0a0475" android:visibility="gone"/>
+    <Constraint android:id="@0x7f0a0471" android:visibility="gone"/>
+    <Constraint android:id="@0x7f0a0458" android:layout_marginBottom="@0x7f0707ad" android:layout_marginEnd="@0x7f0707b2" app:r0x7f04032c="0" app:r0x7f040333="@0x7f0a045a" app:r0x7f040345="@0x7f0a0456" app:r0x7f04034a="0" app:r0x7f04034b="0.5" style="@0x7f1401a1"/>
+    <Constraint android:id="@0x7f0a0476" android:visibility="gone"/>
+    <Constraint android:id="@0x7f0a0472" android:visibility="gone"/>
+    <Constraint android:id="@0x7f0a045a" android:layout_marginBottom="@0x7f0707ad" android:layout_marginEnd="@0x7f0707ad" app:r0x7f04032c="0" app:r0x7f040332="0" app:r0x7f040345="@0x7f0a0458" app:r0x7f04034a="0" app:r0x7f04034b="0.5" style="@0x7f1401a1"/>
+    <Constraint android:id="@0x7f0a0477" android:visibility="gone"/>
+    <Constraint android:id="@0x7f0a0473" android:visibility="gone"/>
+</ConstraintSet>
