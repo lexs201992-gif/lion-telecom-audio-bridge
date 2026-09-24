@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@0x7f0802b9" android:enabled="true" android:shortcutId="photo" android:shortcutShortLabel="@0x7f1003c0">
+        <intent android:targetPackage="com.motorola.odm.camera3" android:action="action_bPhoto" android:targetClass="com.motorola.odm.camera3.CameraActivity"/>
+    </shortcut>
+    <shortcut android:icon="@0x7f080354" android:enabled="true" android:shortcutId="video" android:shortcutShortLabel="@0x7f1003c3">
+        <intent android:targetPackage="com.motorola.odm.camera3" android:action="action_video" android:targetClass="com.motorola.odm.camera3.CameraActivity"/>
+    </shortcut>
+    <shortcut android:icon="@0x7f080301" android:enabled="false" android:shortcutId="self" android:shortcutShortLabel="@0x7f1003c1">
+        <intent android:targetPackage="com.motorola.odm.camera3" android:action="action_fPhoto" android:targetClass="com.motorola.odm.camera3.CameraActivity"/>
+    </shortcut>
+    <shortcut android:icon="@0x7f080221" android:enabled="false" android:shortcutId="night" android:shortcutShortLabel="@0x7f1003bf">
+        <intent android:targetPackage="com.motorola.odm.camera3" android:action="action_night" android:targetClass="com.motorola.odm.camera3.CameraActivity"/>
+    </shortcut>
+    <categories android:name="android.shortcut.conversation"/>
+</shortcuts>

@@ -1,0 +1,4 @@
+<paths>
+    <root-path name="private_cache_root" path=""/>
+    <external-path name="external_storage_root" path=""/>
+</paths>
