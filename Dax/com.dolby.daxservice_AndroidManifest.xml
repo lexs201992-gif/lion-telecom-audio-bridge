@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="34" android:versionName="14" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.dolby.daxservice" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="34"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.QUERY_AUDIO_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="com.dolby.permission.DAXSERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <protected-broadcast android:name="com.dolby.intent.action.DAP_PARAMS_UPDATE"/>
+    <protected-broadcast android:name="com.dolby.intent.ACTION_RELOAD_TUNING"/>
+    <protected-broadcast android:name="audio_server_restarted"/>
+    <permission android:label="dolby_permission" android:name="com.dolby.permission.DAXSERVICE" android:protectionLevel="privileged|signature"/>
+    <permission android:name="com.dolby.daxservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.dolby.daxservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:label="@0x7f10001c" android:icon="@0x7f0e0000" android:name="com.dolby.daxservice.DaxApplication" android:persistent="true" android:allowBackup="false" android:extractNativeLibs="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <service android:name="com.dolby.daxservice.DaxService" android:permission="com.dolby.permission.DAXSERVICE" android:enabled="true" android:exported="true" android:singleUser="true">
+            <intent-filter>
+                <action android:name="com.dolby.daxuser.DaxService"/>
+            </intent-filter>
+        </service>
+        <service android:label="@0x7f10002f" android:icon="@0x7f080080" android:name="com.dolby.daxservice.DaxTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true">
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.dolby.daxservice.SelfDestroyActivity" android:exported="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.dolby.daxservice.DaxTileLongClickEmptyActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.dolby.daxservice.androidx-startup">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
