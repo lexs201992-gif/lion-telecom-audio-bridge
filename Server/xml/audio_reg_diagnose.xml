@@ -1,0 +1,44 @@
+<root>
+<!--
+    SPDX-FileCopyrightText: 2016-2023 Unisoc (Shanghai) Technologies Co., Ltd
+    SPDX-License-Identifier: LicenseRef-Unisoc-General-1.0
+-->
+    <audio_reg_diag time_interval_ms="500">
+        <device_route_ear reg_name="codec" reg_part="analog" count="2">
+            <reg_ref addr="0x0098" val="0x01" mask="0x01" attr="static"/>
+        </device_route_ear>
+        <device_route_spk reg_name="codec" reg_part="analog" count="2">
+            <reg_ref addr="0x0098" val="0x10" mask="0x10" attr="static"/>
+        </device_route_spk>
+        <device_route_usb reg_name="vbc" reg_part="dsp-vbc" count="2">
+            <reg_ref addr="0x0ec0" val="0x0200" mask="0x0300" attr="static"/>
+        </device_route_usb>
+        <device_route_headset reg_name="codec" reg_part="analog" count="2">
+            <reg_ref addr="0x0098" val="0x0c" mask="0x0c" attr="static"/>
+        </device_route_headset>
+        <playback_normal reg_name="vbc" reg_part="dsp-vbc">
+            <reg_ref addr="0x0e7c" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0e80" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f28" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f90" val="0x00" mask="0xffffffff" attr="dynamic"/>
+        </playback_normal>
+        <playback_fast reg_name="vbc" reg_part="dsp-vbc">
+            <reg_ref addr="0x0f28" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f90" val="0x00" mask="0xffffffff" attr="dynamic"/>
+        </playback_fast>
+        <playback_voip reg_name="vbc" reg_part="dsp-vbc">
+            <reg_ref addr="0x0f44" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f48" val="0x00" mask="0xffffffff" attr="dynamic"/>
+        </playback_voip>
+        <voice reg_name="vbc" reg_part="dsp-vbc" count="5">
+            <reg_ref addr="0x0e84" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0e88" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f44" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0f48" val="0x00" mask="0xffffffff" attr="dynamic"/>
+        </voice>
+        <record reg_name="vbc" reg_part="dsp-vbc">
+            <reg_ref addr="0x0e84" val="0x00" mask="0xffffffff" attr="dynamic"/>
+            <reg_ref addr="0x0e88" val="0x00" mask="0xffffffff" attr="dynamic"/>
+        </record>
+    </audio_reg_diag>
+</root>
