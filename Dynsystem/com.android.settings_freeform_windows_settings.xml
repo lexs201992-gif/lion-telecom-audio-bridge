@@ -1,0 +1,5 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f130958" app:r0x7f040434="false">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@0x7f130955" android:key="freeform_windows_intro" app:r0x7f04014d="com.unisoc.settings.applications.FreeformWindowsTopIntroPreferenceController"/>
+    <com.android.settings.widget.VideoPreference android:title="@0x7f13147e" android:key="freeform_windows_video" app:r0x7f04003f="@0x7f120022" app:r0x7f04014d="com.android.settings.widget.VideoPreferenceController"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f130956" android:selectable="false" android:key="freeform_windows_footer" app:r0x7f040434="false"/>
+</PreferenceScreen>

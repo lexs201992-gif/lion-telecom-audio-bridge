@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f1303b3">
+    <Preference android:title="@0x7f130276" android:key="billing_cycle"/>
+    <SwitchPreference android:title="@0x7f1312d7" android:key="set_data_warning"/>
+    <Preference android:title="@0x7f130714" android:key="data_warning"/>
+    <SwitchPreference android:title="@0x7f1312d6" android:key="set_data_limit"/>
+    <Preference android:title="@0x7f1306c2" android:key="data_limit"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f130715" android:selectable="false" android:key="billing_cycle_footer" app:r0x7f040434="false"/>
+</PreferenceScreen>

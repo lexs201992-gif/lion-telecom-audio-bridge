@@ -1,0 +1,6 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@0x7f1318d6">
+    <com.unisoc.settings.widget.WiredCastPreference android:key="wired_screen_cast_image" app:r0x7f04003f="@0x7f12003f"/>
+    <com.unisoc.settings.widget.RadioPreference android:persistent="true" android:title="@0x7f1318d9" android:key="wired_screen_case_mode_different" android:summary="@0x7f1318da"/>
+    <com.unisoc.settings.widget.RadioPreference android:persistent="true" android:title="@0x7f1318db" android:key="wired_screen_case_mode_same" android:summary="@0x7f1318dc"/>
+    <PreferenceCategory android:title="@0x7f1318d8" android:key="wired_screen_cast_device_list"/>
+</PreferenceScreen>

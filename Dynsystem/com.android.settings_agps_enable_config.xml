@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:persistent="false" android:title="@0x7f1301ce">
+    <PreferenceCategory android:title="@0x7f1301ce" android:key="enable_agps_option_group"/>
+    <com.android.settingslib.widget.RadioButtonPreference android:persistent="false" android:title="@0x7f1301cd" android:key="enable_agps_registered"/>
+    <com.android.settingslib.widget.RadioButtonPreference android:persistent="false" android:title="@0x7f1301cb" android:key="enable_agps_all"/>
+    <com.android.settingslib.widget.RadioButtonPreference android:persistent="false" android:title="@0x7f1301cc" android:key="enable_agps_none"/>
+    <PreferenceCategory android:title="@0x7f1312e3" android:key="default_set_title"/>
+    <Preference android:title="@0x7f1301c9" android:key="default_set_button" android:summary="@0x7f1301ca"/>
+    <Preference android:title="@0x7f1301c7" android:key="config_agps_help_title" android:summary="@0x7f1301c8"/>
+</PreferenceScreen>

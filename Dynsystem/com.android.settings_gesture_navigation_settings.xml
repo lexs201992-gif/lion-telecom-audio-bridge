@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f130977" android:key="gesture_navigation_settings_page" app:r0x7f0402a7="@0x7f130b02">
+    <PreferenceCategory android:persistent="false" android:title="@0x7f130293" android:key="assistant_gesture_category">
+        <SwitchPreference android:title="@0x7f130292" android:key="assistant_gesture_corner_swipe" android:summary="@0x7f130291" app:r0x7f04014d="com.android.settings.gestures.GestureNavigationSettingsAssistController"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@0x7f1302ee" android:key="back_sensitivity_category">
+        <com.android.settings.widget.LabeledSeekBarPreference android:max="2" android:title="@0x7f130b63" android:key="gesture_left_back_sensitivity" app:r0x7f0405b7="@0x7f130a2e" app:r0x7f0405c9="@0x7f130c94"/>
+        <com.android.settings.widget.LabeledSeekBarPreference android:max="2" android:title="@0x7f131151" android:key="gesture_right_back_sensitivity" app:r0x7f0405b7="@0x7f130a2e" app:r0x7f0405c9="@0x7f130c94"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@0x7f130dfc" android:key="navigation_bar_category">
+        <com.android.settings.widget.GesturePillChooserPreference android:selectable="false" android:key="hide_navigation_bar" app:r0x7f040434="false"/>
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f1302ed" android:selectable="false" android:key="gesture_navigation_settings_footer" app:r0x7f040434="false"/>
+</PreferenceScreen>

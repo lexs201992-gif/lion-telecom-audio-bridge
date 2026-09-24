@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@0x7f13083c">
+    <com.android.settingslib.widget.MainSwitchPreference android:key="gesture_emergency_button_switch_bar" app:r0x7f04014d="com.android.settings.emergency.EmergencyGesturePreferenceController"/>
+    <com.android.settingslib.widget.TopIntroPreference android:title="@0x7f13083b" app:r0x7f040035="false"/>
+    <SwitchPreference android:icon="@0x7f08022b" android:title="@0x7f13083f" android:key="emergency_gesture_sound" android:summary="@0x7f13083e" app:r0x7f04014d="com.android.settings.emergency.EmergencyGestureSoundPreferenceController" app:r0x7f0402a7="@0x7f130b01"/>
+    <PreferenceCategory android:title="@0x7f130839" android:key="emergency_gesture_notify_for_help">
+        <com.android.settings.emergency.EmergencyGestureNumberOverridePreference android:icon="@0x7f0801dc" android:title="@0x7f130838" android:key="emregency_gesture_number_override" android:summary="@0x7f13147e" android:dialogTitle="@0x7f130836" android:positiveButtonText="@0x7f131186" android:dialogLayout="@0x7f0d00d5" app:r0x7f04014d="com.android.settings.emergency.EmergencyGestureNumberOverridePreferenceController"/>
+    </PreferenceCategory>
+</PreferenceScreen>

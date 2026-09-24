@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f1317e1" app:r0x7f040434="false">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@0x7f1317db" android:key="wifi_hotspot_speed_intro"/>
+    <PreferenceCategory android:title="@0x7f1317d9" android:key="wifi_hotspot_speed">
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:visibility="gone" android:title="@0x7f1317d1" android:key="wifi_hotspot_speed_2g" android:summary="@0x7f1317d4"/>
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:visibility="gone" android:title="@0x7f1317d5" android:key="wifi_hotspot_speed_5g" android:summary="@0x7f1317d6"/>
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f1317d2" android:key="wifi_hotspot_speed_2g_5g" android:summary="@0x7f1317d3"/>
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f1317d7" android:key="wifi_hotspot_speed_6g" android:summary="@0x7f1317d8"/>
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f1317da" android:selectable="false" android:key="wifi_hotspot_speed__footer"/>
+</PreferenceScreen>

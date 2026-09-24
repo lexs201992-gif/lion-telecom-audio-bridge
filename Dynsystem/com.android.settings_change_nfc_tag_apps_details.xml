@@ -1,0 +1,4 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@0x7f13056e" android:key="change_nfc_tag_apps">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@0x7f13056d" android:key="app_ops_settings_switch"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f13056c" android:selectable="false" android:key="app_ops_settings_preference"/>
+</PreferenceScreen>

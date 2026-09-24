@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f13150b" android:key="all_tether_prefs_screen" app:r0x7f040434="false">
+    <PreferenceCategory android:title="@0x7f1317c7" android:key="wifi_tether_settings_group" app:r0x7f040434="false">
+        <com.android.settings.wifi.tether.WifiTetherSsidPreference android:title="@0x7f1317cb" android:key="wifi_tether_network_name_2" android:summary="@0x7f13147e"/>
+        <com.android.settings.widget.ValidatedEditTextPreference android:persistent="false" android:title="@0x7f1317ce" android:key="wifi_tether_network_password_2"/>
+        <SwitchPreference android:title="@0x7f1317c6" android:key="wifi_tether_auto_turn_off_2" android:summary="@0x7f1317c5"/>
+        <ListPreference android:title="@0x7f1317c4" android:key="wifi_tether_network_ap_band_2"/>
+        <ListPreference android:entries="@0x7f03011c" android:title="@0x7f13182b" android:key="wifi_tether_security_2" android:summary="@0x7f13147e" android:entryValues="@0x7f03011d"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@0x7f131515" android:key="tethering_options_group" app:r0x7f040434="false">
+        <SwitchPreference android:title="@0x7f131617" android:key="enable_usb_tethering" android:summary="@0x7f131618" app:r0x7f04014d="com.android.settings.network.UsbTetherPreferenceController" app:r0x7f0402a7="@0x7f130b04"/>
+        <SwitchPreference android:title="@0x7f1304be" android:key="enable_bluetooth_tethering_2" android:summary="@0x7f1304c0" app:r0x7f04014d="com.android.settings.network.BluetoothTetherPreferenceController" app:r0x7f0402a7="@0x7f130b04"/>
+        <SwitchPreference android:title="@0x7f1308bd" android:key="enable_ethernet_tethering_2" android:summary="@0x7f1308be" app:r0x7f04014d="com.android.settings.network.EthernetTetherPreferenceController" app:r0x7f0402a7="@0x7f130b04"/>
+        <SwitchPreference android:title="@0x7f1307b0" android:key="disable_wifi_tethering" android:summary="@0x7f13147e" app:r0x7f04014d="com.android.settings.network.WifiTetherDisablePreferenceController" app:r0x7f0402a7="@0x7f130b04"/>
+    </PreferenceCategory>
+    <Preference android:selectable="false" android:key="disabled_on_data_saver_2" android:summary="@0x7f1314f7" app:r0x7f040035="true" app:r0x7f040434="false"/>
+    <com.android.settingslib.widget.FooterPreference android:selectable="false" android:key="tether_prefs_footer_2" app:r0x7f040434="false"/>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f130476">
+    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@0x7f130086" android:key="available_hearing_devices"/>
+    <PreferenceCategory android:title="@0x7f130085" android:key="device_control_category">
+        <com.android.settingslib.RestrictedPreference android:title="@0x7f1300a0" android:key="list_bt_devices" app:r0x7f04014d="com.android.settings.accessibility.ViewAllBluetoothDevicesPreferenceController" app:r0x7f040626="true" app:r0x7f04062a="no_config_bluetooth"/>
+    </PreferenceCategory>
+    <com.android.settings.accessibility.AccessibilityFooterPreference android:title="@0x7f13008d" android:selectable="false" android:key="hearing_device_footer" app:r0x7f04014d="com.android.settings.accessibility.PairHearingDeviceFooterPreferenceController" app:r0x7f040434="false"/>
+</PreferenceScreen>

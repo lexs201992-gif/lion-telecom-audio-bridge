@@ -1,0 +1,4 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@0x7f13080d" android:key="draw_overlay_permission_detail_settings">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@0x7f130f84" android:key="app_ops_settings_switch"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f1301e9" android:selectable="false"/>
+</PreferenceScreen>

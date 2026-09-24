@@ -1,0 +1,4 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f131819" android:key="saved_access_points">
+    <PreferenceCategory android:title="@0x7f13186c" android:key="subscribed_access_points_category" app:r0x7f04014d="com.android.settings.wifi.savedaccesspoints2.SubscribedAccessPointsPreferenceController2"/>
+    <PreferenceCategory android:title="@0x7f13181c" android:key="saved_access_points_category" app:r0x7f04014d="com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsPreferenceController2"/>
+</PreferenceScreen>

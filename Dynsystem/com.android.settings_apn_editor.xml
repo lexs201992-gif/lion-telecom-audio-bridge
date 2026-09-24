@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@0x7f13020b">
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130213" android:key="apn_name" android:dialogTitle="@0x7f130213" android:inputType="text"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130209" android:key="apn_apn" android:dialogTitle="@0x7f130209" android:inputType="textEmailAddress"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13020d" android:key="apn_http_proxy" android:dialogTitle="@0x7f13020d" android:inputType="textUri"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13020c" android:key="apn_http_port" android:dialogTitle="@0x7f13020c" android:inputType="number"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13021d" android:key="apn_user" android:dialogTitle="@0x7f13021d" android:inputType="textEmailAddress"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130216" android:key="apn_password" android:dialogTitle="@0x7f130216" android:inputType="textPassword"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130219" android:key="apn_server" android:dialogTitle="@0x7f130219" android:inputType="textUri"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130211" android:key="apn_mmsc" android:dialogTitle="@0x7f130211" android:inputType="textUri"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130210" android:key="apn_mms_proxy" android:dialogTitle="@0x7f130210" android:inputType="textUri"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13020f" android:key="apn_mms_port" android:dialogTitle="@0x7f13020f" android:inputType="number"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13020e" android:key="apn_mcc" android:dialogTitle="@0x7f13020e" android:inputType="number"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130212" android:key="apn_mnc" android:dialogTitle="@0x7f130212" android:inputType="number"/>
+    <ListPreference android:persistent="false" android:entries="@0x7f030010" android:title="@0x7f13020a" android:key="auth_type" android:entryValues="@0x7f030011"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f13021c" android:key="apn_type" android:dialogTitle="@0x7f13021c" android:inputType="textNoSuggestions"/>
+    <ListPreference android:persistent="false" android:entries="@0x7f030012" android:title="@0x7f130217" android:key="apn_protocol" android:dialogTitle="@0x7f130217" android:entryValues="@0x7f030013"/>
+    <ListPreference android:persistent="false" android:entries="@0x7f030012" android:title="@0x7f130218" android:key="apn_roaming_protocol" android:dialogTitle="@0x7f130218" android:entryValues="@0x7f030013"/>
+    <SwitchPreference android:persistent="false" android:enabled="false" android:title="@0x7f130543" android:key="carrier_enabled" android:summaryOn="@0x7f130545" android:summaryOff="@0x7f130544"/>
+    <MultiSelectListPreference android:persistent="false" android:entries="@0x7f03002a" android:title="@0x7f1303b1" android:key="bearer_multi" android:entryValues="@0x7f03002b" style="@0x7f140203"/>
+    <ListPreference android:persistent="false" android:entries="@0x7f0300ad" android:title="@0x7f130df0" android:key="mvno_type" android:entryValues="@0x7f0300af"/>
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@0x7f130def" android:key="mvno_match_data" android:dialogTitle="@0x7f130def" android:inputType="text"/>
+</PreferenceScreen>

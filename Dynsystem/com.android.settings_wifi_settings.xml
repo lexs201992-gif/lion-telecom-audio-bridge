@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f13184d" app:r0x7f0402a7="@0x7f130b48">
+    <com.android.settings.wifi.LinkablePreference android:key="wifi_status_message"/>
+    <PreferenceCategory android:layout="@0x7f0d018b" android:key="connected_access_point"/>
+    <PreferenceCategory android:layout="@0x7f0d018b" android:key="access_points"/>
+    <Preference android:title="@0x7f13175a" android:key="configure_wifi_settings" android:fragment="com.android.settings.wifi.ConfigureWifiSettings" app:r0x7f040035="true"/>
+    <Preference android:title="@0x7f131819" android:key="saved_networks" android:fragment="com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2"/>
+    <com.android.settings.datausage.DataUsagePreference android:title="@0x7f131762" android:key="wifi_data_usage"/>
+</PreferenceScreen>

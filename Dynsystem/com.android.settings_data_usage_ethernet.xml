@@ -1,0 +1,5 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.datausage.TemplatePreferenceCategory android:title="@0x7f1308ba" android:key="ethernet_category">
+        <com.android.settings.datausage.DataUsagePreference android:title="@0x7f1308bc" android:key="ethernet_data_usage"/>
+    </com.android.settings.datausage.TemplatePreferenceCategory>
+</PreferenceScreen>

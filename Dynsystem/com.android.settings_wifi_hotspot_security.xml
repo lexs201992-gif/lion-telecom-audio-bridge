@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f13182b" app:r0x7f040434="false">
+    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f13183a" android:key="wifi_hotspot_security_wpa3"/>
+    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f131839" android:key="wifi_hotspot_security_wpa2_wpa3"/>
+    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f13184a" android:key="wifi_hotspot_security_wpa2"/>
+    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@0x7f131832" android:key="wifi_hotspot_security_none"/>
+    <com.android.settingslib.widget.FooterPreference android:title="@0x7f1317cf"/>
+</PreferenceScreen>

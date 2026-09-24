@@ -1,0 +1,4 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@0x7f130806">
+    <com.android.settingslib.widget.IllustrationPreference android:key="gesture_double_twist_video" app:r0x7f0401a7="true" app:r0x7f040324="@0x7f120021" app:r0x7f040434="false"/>
+    <SwitchPreference android:title="@0x7f130806" android:key="gesture_double_twist" android:summary="@0x7f130805" app:r0x7f04014d="com.android.settings.gestures.DoubleTwistPreferenceController" app:r0x7f0402a7="@0x7f130b01"/>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f130164" android:key="user_and_account_settings_screen" app:r0x7f0402a7="@0x7f130abd">
+    <PreferenceCategory android:persistent="false" android:title="@0x7f1302d3" android:key="passwords_category" android:order="10" app:r0x7f04014d="com.android.settings.applications.autofill.PasswordsPreferenceController" app:r0x7f040226="true" app:r0x7f0402a7="@0x7f1302cf"/>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@0x7f1302cd" android:key="autofill_work_app_defaults" android:order="30">
+        <com.android.settings.widget.GearPreference android:title="@0x7f1302cd" android:key="default_autofill_work" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" app:r0x7f040434="false">
+            <extra android:name="for_work" android:value="true"/>
+        </com.android.settings.widget.GearPreference>
+    </com.android.settings.widget.WorkOnlyCategory>
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="130"/>
+    <SwitchPreference android:title="@0x7f1302cb" android:key="auto_sync_account_data" android:summary="@0x7f1302ca" android:order="200" app:r0x7f040035="true"/>
+    <SwitchPreference android:title="@0x7f130168" android:key="auto_sync_work_account_data" android:summary="@0x7f1302ca" android:order="210"/>
+</PreferenceScreen>

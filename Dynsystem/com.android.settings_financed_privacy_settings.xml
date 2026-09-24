@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@0x7f130902">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@0x7f1308fb" app:r0x7f040434="false"/>
+    <PreferenceCategory android:title="@0x7f1308ff" android:key="restrictions_category" android:order="100" android:contentDescription="@0x7f1308ff">
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308fa" android:selectable="false" android:key="financed_privacy_install_apps" android:order="110"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f130901" android:selectable="false" android:key="financed_privacy_safe_mode" android:order="120"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308fd" android:selectable="false" android:key="financed_privacy_multi_users" android:order="130"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f4" android:selectable="false" android:key="financed_privacy_config_date_time" android:order="140"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f6" android:selectable="false" android:key="financed_privacy_developer_options" android:order="150"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@0x7f1308f5" android:key="credit_provider_capabilities_category" android:order="200" android:contentDescription="@0x7f1308f5">
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f2" android:selectable="false" android:key="financed_privacy_IMEI" android:order="210"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f8" android:selectable="false" android:key="financed_privacy_factory_reset" android:order="220"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@0x7f1308fc" android:key="locked_mode_category" android:order="300" android:contentDescription="@0x7f1308fc">
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f7" android:selectable="false" android:key="financed_privacy_emergency_calls" android:order="310"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f130903" android:selectable="false" android:key="financed_privacy_system_info" android:order="320"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f130904" android:selectable="false" android:key="financed_privacy_turn_on_off_device" android:order="330"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308fe" android:selectable="false" android:key="financed_privacy_notifications" android:order="340"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f1308f3" android:selectable="false" android:key="financed_privacy_allowlisted_apps" android:order="350"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@0x7f1308f9" android:key="fully_paid_category" android:order="400" android:contentDescription="@0x7f1308f9">
+        <Preference android:layout_height="wrap_content" android:title="@0x7f130900" android:selectable="false" android:key="financed_privacy_restrictions_removed" android:order="410"/>
+        <Preference android:layout_height="wrap_content" android:title="@0x7f130905" android:selectable="false" android:key="financed_privacy_uninstall_creditor_app" android:order="420"/>
+    </PreferenceCategory>
+</PreferenceScreen>
