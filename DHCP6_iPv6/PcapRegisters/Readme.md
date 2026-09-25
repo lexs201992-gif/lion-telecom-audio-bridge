@@ -3,6 +3,8 @@ UID -1 is the networkmanager using the VM into de system ui
 controlling and monitoring all the time using all the "Asop Normality" 
 and for the last user is no way to noted this traffics they run kn wmshell RIL baseband and exploiting all the root acces they have (ODM)
 for exfil controll and verify the decive still living of the land 
+
+
 [W] 24/Sep/2026 22:13:18 - [UDP4] 10.215.173.1:40059 -> 8.8.4.4:53: net/host unreachable
 [W] 24/Sep/2026 22:13:19 - [UDP4] 10.215.173.1:48281 -> 8.8.4.4:53: net/host unreachable
 [W] 24/Sep/2026 22:13:19 - [UDP4] 10.215.173.1:40853 -> 8.8.4.4:53: net/host unreachable
