@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config><compat-change enableAfterTargetSdk="36" id="407952621" name="DEFAULT_ENABLE_CERTIFICATE_TRANSPARENCY" /><compat-change enableAfterTargetSdk="36" id="419020719" name="ENABLE_DEFAULT_ENCRYPTED_CLIENT_HELLO" /><compat-change disabled="true" id="415007211" name="DEPRECATE_USES_CLEARTEXT_TRAFFIC" /></config>
