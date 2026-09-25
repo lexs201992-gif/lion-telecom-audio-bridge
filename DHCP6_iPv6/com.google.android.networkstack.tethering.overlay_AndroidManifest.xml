@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="33" android:versionName="13" android:compileSdkVersion="33" android:compileSdkVersionCodename="Tiramisu" package="com.google.android.networkstack.tethering.overlay" platformBuildVersionCode="33" platformBuildVersionName="Tiramisu">
+    <uses-sdk android:minSdkVersion="33" android:targetSdkVersion="33"/>
+    <overlay android:targetPackage="com.google.android.networkstack.tethering" android:targetName="TetheringConfig" android:isStatic="true"/>
+    <application android:label="TetheringConfigOverlay" android:hasCode="false" android:extractNativeLibs="true"/>
+</manifest>
