@@ -1,0 +1,3 @@
+IPProto,SrcIP,SrcPort,DstIp,DstPort,UID,App,PackageName,Proto,Status,Info,BytesSent,BytesRcvd,PktsSent,PktsRcvd,FirstSeen,LastSeen
+6,fd00:2:fd00:1:fd00:1:fd00:1,48888,2a03:2880:f38a:120:face:b00c:0:167,443,-1,Unknown,unknown,TLS,Closed,graph.whatsapp.com,140,128,2,2,2026-09-22T07:30:37.783-05:00,2026-09-22T07:30:37.909-05:00
+6,fd00:2:fd00:1:fd00:1:fd00:1,48900,2a03:2880:f38a:120:face:b00c:0:167,443,-1,Unknown,unknown,TLS,Closed,graph.whatsapp.com,140,128,2,2,2026-09-22T07:30:37.814-05:00,2026-09-22T07:30:37.916-05:00
